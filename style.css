@@ -1,0 +1,68 @@
+@import "nav.css";
+:root {
+    --backgroundColor: #122A38;
+    --highlightColor: #29BB99;
+    --accentColor: #94B855;
+    --textColor: #B2BBC6;
+    --blueColor: #6186DB;
+    --fontType: 'Noto Sans JP', sans-serif;
+    --fontSize: 16px;
+}
+
+*{
+    /*outline: 1px solid lightcoral;*/
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: var(--fontType);
+    color: var(--textColor);
+    font-size: var(--fontSize);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+
+html.dark {
+    background-color: var(--backgroundColor);
+}
+
+.dark-light {
+    width: 40px;
+    height: auto;
+}
+
+h1 {
+    font-size:3rem;
+    line-height: 2.5;
+}
+
+article, p,  span {
+    font-size: 1.8rem;
+}
+
+header, main {
+    margin: 0.8rem 18rem;
+}
+.portrait-container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: relative;
+}
+.portrait {
+    height:25%;
+    width: 25%;
+    overflow: hidden;
+    position: relative;
+    margin-right: 0;
+    margin-left: auto;
+    transform: rotate(3deg);
+    border-radius: 10%;
+}

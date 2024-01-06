@@ -1,19 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="dark" lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
+<header>
+    <nav class="main-nav">
+        <div>
+           <a class="name" href="index.html">Christopher Annunziato</a>
+        </div>
+        <ul class="nav-list">
+            <li><a href="/projects" class="nav-link" title="Projects">Projects</a></li>
+            <li><a href="/cv" class="nav-link" title="CV">CV</a></li>
+            <li><a href="/contact" class="nav-link" title="Contact">Contact me</a></li>
+            <li><button class="nav-link" title="Change to light mode"><img class="dark-light" src="dark-light-theme-icon.svg" alt="dark-light-icon"></button></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <article id="intro">
 
-<section id = "intro">
-  <p>Christopher Annunziato</p>
-
-
-</section>
-
-
-
+        <span class="greetingGeneric">Hello,</span>
+        <div class="portrait-container">
+            <img class ="portrait", src="PXL_20240101_211821942.PORTRAIT.ORIGINAL.jpg">
+        </div>
+        <h1 class="greetingName">I'm Chris.</h1>
+        <p class=""> I specialize in crafting health and fitness applications with engaging user interfaces that maximize progress by
+            streamlining the tedious design, testing and iteration process loop.</p>
+    </article>
+</main>
 </body>
 </html>
+
